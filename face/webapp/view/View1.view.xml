@@ -1,0 +1,15 @@
+<mvc:View controllerName="com.face.heartbeat.face.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						
+						<html:iframe target='_top' src="CopyOfindex.html" id ="attachmentframe" height="98%" width="100%"></html:iframe>
+						
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
